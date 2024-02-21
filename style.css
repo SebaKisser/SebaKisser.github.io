@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+body {
+    color: red;
+    font-family: "Kode Mono", monospace;
+}
+
+h1 {
+    color: blue;
+}
+
+
+#contenedor {
+    width: 900px;
+    height: 500 px;
+    text-align: center;
+    /*Estas 3 lineas se encargan de centrar el div vertical y horizontalmente*/
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
