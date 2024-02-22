@@ -1,5 +1,4 @@
 ﻿<!DOCTYPE html>
-
 <html>
     <head>
         <title>CALCULADORA BASAL</title>
@@ -11,11 +10,11 @@
                     <!--Inicio de la seccion de calculo--> 
                     <div class="contenido">                       
                             <h1>HIDRATACION BASAL</h1>
-                            <p>* Debe completar todos los datos</p>
-                            <input type="number" placeholder="Ingrese el peso en kg"/>
-                            <button>Calcular</button>
-                            <p class="parrafo">70cc/hr</p>
-                            <p class="parrafo">m+m/2 : 105cc/hr</p>
+                            <p class="item" class="error">* Debe completar todos los datos</p>
+                            <input class="item" id="peso" type="number" placeholder="Ingrese el peso en kg"/>
+                            <button class="item" id="calcular">Calcular</button>
+                            <p class="parrafo" class="item resultado" id="flu">70cc/hr</p>
+                            <p class="parrafo" class="item resultado" id="man">m+m/2 : 105cc/hr</p>
                             <!--Fin del Calculo-->                        
                     </div>
                 </div>        
