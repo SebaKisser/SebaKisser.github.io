@@ -1,21 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
-body {
-    color: red;
-    font-family: "Kode Mono", monospace;
+body{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-    color: blue;
+    color: white;
 }
-
 
 #contenedor {
     width: 900px;
-    height: 500 px;
+    height: 500px;
     text-align: center;
     /*Estas 3 lineas se encargan de centrar el div vertical y horizontalmente*/
     position: absolute;
     inset: 0;
     margin: auto;
+}
+
+#calculadora{
+    background: cyan;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#detalle{
+    background: #FF416C;
+    width: 50%;
+    height: 100%;
+    float: left;
+    color: white;  
+}
+
+.contenido{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    padding: 40 px;
+}
+
+input{
+    width: 70%;
+    padding: 10px 15px;
+    border: none;
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+
+button{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 45px;
+    border-radius: 30px;
+    background-color: #FF416C;
+    border: 1px solid #FF416C;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform 20ms ease-in;
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+.parrafo{
+    color: rgb(107, 107, 234);
+    text-transform: uppercase;
+    font-weight: bold;
 }
