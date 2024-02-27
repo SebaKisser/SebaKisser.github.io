@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 body{
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "EB Garamond", serif;
+    font-weight: 800;
+    font-size: medium;
 }
 
 h1 {
@@ -10,28 +11,28 @@ h1 {
 }
 
 #contenedor {
-    width: 900px;
-    height: 500px;
+    width: 65%;
+    height: 70%;
     text-align: center;
     /*Estas 3 lineas se encargan de centrar el div vertical y horizontalmente*/
     position: absolute;
     inset: 0;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25),
         0 10px 10px rgba(0,0,0,0.22);
 }
 
 #calculadora{
-    background: cyan;
+    background-image: radial-gradient(circle at 50% -20.71%, #98e7ff 0, #3cb5f2 50%, #0085ce 100%);
     width: 50%;
     height: 100%;
     float: left;
 }
 
 #detalle{
-    background: #FF416C;
+    background-image: linear-gradient(180deg, #ff87a0 0, #ff7e9f 16.67%, #ff749d 33.33%, #f46a98 50%, #de6192 66.67%, #ca598d 83.33%, #b75288 100%);
     width: 50%;
     height: 100%;
     float: left;
@@ -47,10 +48,10 @@ h1 {
 }
 
 input{
+    background-color: #FFFFFF;               
     width: 70%;
     padding: 10px 15px;
     border: none;
-    background-color: #eee;
     margin-bottom: 20px;
 }
 
@@ -60,7 +61,7 @@ button{
     padding: 10px 45px;
     border-radius: 30px;
     background-color: #FF416C;
-    border: 1px solid #FF416C;
+    border: 0px solid;
     color: #FFFFFF;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -72,21 +73,14 @@ button:active{
 }
 
 .parrafo{
-    color: rgb(107, 107, 234);
+    font-size: larger;
+    font-weight: bold;
+    color: black;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 #error{
     color: red;
-    font-weight: bold;
     display: none;
-}
-
-.resultado{
-    color: #0A81D1;
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 5px;
-    display: none;    
 }
