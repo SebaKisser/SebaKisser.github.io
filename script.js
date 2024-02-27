@@ -36,7 +36,7 @@ CALCULAR.addEventListener('click', () => {
             let mantenimiento1 = (flujo1 * 1.5).toFixed(2);
             let mantenimiento2 = (flujo2 * 1.5).toFixed(2);
 
-            FLUJO.innerHTML = flujo1 + ' cc/hr' + ' o ' + flujo2 + ' cc/hr';
+            FLUJO.innerHTML = "m = " + flujo1 + ' cc/hr' + ' o ' + flujo2 + ' cc/hr';
             MANTENIMIENTO.innerHTML = 'm + m/2 = ' + mantenimiento1 + ' cc/hr o ' + mantenimiento2 + ' cc/hr';
             FLUJO.style.display = 'block';
             MANTENIMIENTO.style.display = 'block';
